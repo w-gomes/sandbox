@@ -3,6 +3,7 @@
 #include <fmt/format.h>
 namespace Temp {
 
+// explicitly instantiating struct for the type int
 template struct foo<int>;
 
 }  // namespace Temp
