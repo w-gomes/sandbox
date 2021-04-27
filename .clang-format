@@ -19,6 +19,7 @@ BinPackArguments: 'false'
 BinPackParameters: 'false'
 BreakBeforeBinaryOperators: None
 BreakBeforeTernaryOperators: 'true'
+BreakBeforeConceptDeclarations: 'true'
 BreakConstructorInitializers: BeforeComma
 BreakInheritanceList: BeforeComma
 BreakStringLiterals: 'true'
@@ -31,6 +32,7 @@ FixNamespaceComments: 'true'
 IndentCaseLabels: 'true'
 IndentPPDirectives: BeforeHash
 IndentWidth: '2'
+IndentRequires: 'true'
 KeepEmptyLinesAtTheStartOfBlocks: 'false'
 Language: Cpp
 PointerAlignment: Right
