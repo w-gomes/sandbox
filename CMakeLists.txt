@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 
 ############################ project setup ############################
 
-project(test_bed LANGUAGES CXX)
+project(sandbox LANGUAGES CXX)
 include(cmake/standard_project_settings.cmake)
 include(cmake/prevent_in_source_builds.cmake)
 
@@ -78,7 +78,8 @@ endfunction()
 test(number_theory src/number_theory.cpp)
 test(fmt_test src/fmt_test.cpp)
 test(black_hole src/black_hole.cpp)
-test(temp src/temp.cpp)
+test(rsa src/rsa.cpp)
+test(comptime src/compile_time_stuff.cpp)
 
 
 ############################ test ############################

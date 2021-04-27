@@ -76,5 +76,10 @@ int main() {
   fmt::print("{}", fmt::join(out_vec, ""));
 
   fmt::print("{}\n", "•");
+
+  std::cout << "cout: "
+            << "Сумма цисел\n";
+
+  fmt::print("fmt: {}\n", "Сумма цисел");
   return 0;
 }

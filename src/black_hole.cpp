@@ -1,9 +1,8 @@
 #include <fmt/ranges.h>
 
-#include <string>
 #include <vector>
 
-int main() {
+auto main() -> int {
   auto number                   = 1498;
   const char* stringfied_number = "1498";
 
@@ -27,12 +26,13 @@ int main() {
   }
 
   fmt::print("{}\n", vec_char);
-  
-  for (auto c : vec_char) { 
-    fmt::print("{}", static_cast<short>(c));
-  }
+
+  for (auto c : vec_char) { fmt::print("{}", static_cast<short>(c)); }
   fmt::print("\n");
 
   fmt::print("{} {}\n", number, stringfied_number);
+
+  fmt::print("{} {}\n", 10, 4.2F);
+
   return 0;
 }
